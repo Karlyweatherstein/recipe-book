@@ -5,18 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { HeroComponent } from './hero/hero.component';
-import { GalleryComponent } from './gallery/gallery.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { MyRecipesComponent } from './my-recipes/my-recipes.component';
+import { ExploreComponent } from './explore/explore.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     HeroComponent,
-    GalleryComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    MyRecipesComponent,
+    ExploreComponent
   ],
   imports: [
     BrowserModule,

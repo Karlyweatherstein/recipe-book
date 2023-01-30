@@ -1,0 +1,35 @@
+* {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(203, 223, 195);
+  text-decoration: none;
+  list-style: none;
+}
+
+.icon {
+  margin: 6px 6px 6px 30px;
+  color: #e2ae9a;
+  font-size: 36px;
+}
+
+.links {
+  margin: 6px 30px 6px 6px;
+}
+
+.links li {
+  padding: 8px 18px;
+  font-size: x-large;
+}
+
+.links li a {
+  color: #e2ae9a;
+}
+
+.links li a:hover {
+  color: white;
+}
+
+.icon:hover {
+  color: white;
+}
